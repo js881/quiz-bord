@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  display: grid;
+}
+
+body {
+  margin: auto;
+  background-color: #fac4af;
+  font-family: Georgia;
+}
+
+#board {
+  display: inline-block;
+  background-image: url("https://15-puzzle-game--joyalmathew.repl.co/board.jpeg");
+  padding: 10px;
+  box-shadow: 40px 40px #9b857a;
+  border: 1px solid black;
+  border-radius: 35px;
+}
+
+#display {
+  margin-left: 0px;
+  float: right;
+}
+
+#menu {
+  display: grid;
+  font-size: 75pt;
+  float: left;
+  width: 500px;
+  height: 500px;
+  margin-right: 0px;
+  box-sizing: border-box;
+}
+
+#menu p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+#menu input, #menu button {
+  font-family: Georgia;
+}
+
+#content {
+  margin: auto;
+  width: 450px;
+}

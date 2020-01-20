@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascipt</title>
+</head>
+<body>
+	<h1 id="new"></h1>
+	<h1 id="other"></h1>
+
+	<script type="text/javascript">
+		var x={firstname:"justin ",lastname:"shyaka"};
+		document.getElementById('new').innerHTML=x.firstname+x.lastname
+        
+		var person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+		document.getElementById("other").innerHTML=person.firstName
+		
+	</script>
+
+</body>
+</html>

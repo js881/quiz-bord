@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Puzzle Game</title>
+    <link href="puzzle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>game</header>
+    <div id="board">
+      <canvas id="display" width="500" height="500"></canvas>
+      <div id="menu">
+        <div id="content">
+          <p id="moves">Moves: </p><br><br>
+          <p>Try getting the blocks into ascending order: left to right, top to bottom.</p>
+          <p>Click any block next to the space to swap them.</p>
+          <br>
+          Size: <input id="size" type="number" min="2" max="5" value="4">
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="puzzle.js"></script>
+  </body>
+</html>

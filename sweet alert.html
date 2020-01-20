@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sweet alert</title>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+	
+
+		<input type="text" name="email" id="username" placeholder="enter your email" required>
+		<br>
+		<br>
+		<input type="password" name="pass" id="password" placeholder="enter your password" required>
+		<br>
+		<br>
+		<input type="submit" value="login" onclick="validation();">
+	
+	<script type="text/javascript">
+	function validation(){
+
+            var username = 'justinshyaka1@gmail.com';
+            var password = '0726232874';
+
+
+			var userName = document.getElementById('username').value;
+			var passWord = document.getElementById('password').value;
+
+			if ((username == userName) && (password == passWord)) {
+
+					swal({
+						title: "Good job!",
+						text: "login success!",
+						icon: "success",
+					});
+			}
+			else{
+					swal({
+						title: "failed!",
+						text: "some thing went rwong",
+						icon: "error",
+					});
+			}
+		}	
+	
+	</script>
+	
+
+</body>
+</html>

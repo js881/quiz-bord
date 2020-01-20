@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+	<script src="quiz.js"></script>
+
+	<center>
+		<strong>QUIZ BORD</strong>
+		<form class="container" id="quiz" name="quiz" action="/action_page.php">
+			<h1 style="color: #95b0db">Start a quiz</h1>
+			<p>1, what is the capital city of Rwanda</p>
+			<input type="radio" value="KIGALI" name="capital" required="">KIGALI<br>
+		    <input type="radio" value="KINSHASA" name="capital" required="">KINSHASA<br>
+			 <input type="radio" value="NO ANSWER" name="capital" required="">NO ANSWER<br><br>
+
+
+		    <p>2, HTML in full word </p>
+			<input type="radio" value="Hypertext Markup Language" name="html" required="">Hypertext Markup Language<br>
+		    <input type="radio" value="Hyper Transfer make languages" name="html" required="">Hyper Transfer make languages<br>
+			 <input type="radio" value="NO ANSWER" name="html" required="">NO ANSWER<br><br>
+
+
+
+		    <p>3, GPS in full word </p>
+			<input type="radio" value="Global Positioning System" name="full" required="">Global Positioning System<br>
+		    <input type="radio" value="Global program System" name="full" required="">Global program System<br>
+			<input type="radio" value="NO ANSWER" name="full" required="">NO ANSWER<br><br>
+		 
+
+
+
+		     <p>4, What is the meaning of Website</p>
+			<input type="radio" name="Website" value="a set of pages of information on the internet about a particular subject, published by a single person or organization" required="">a set of pages of information on the internet about a particular subject, published by a single person or organization<br>
+		    <input type="radio" name="Website" value="a set of information you need if you want to create a web" required="">
+		    a set of information you need if you want to create a web<br>
+			 <input type="radio" name="Website" value="NO ANSWER" required="">
+		    <span>NO ANSWER</span><br><br>	
+
+
+
+		   
+		   	<a class="zoom" type="button" value="get marks" onclick="mark();" style="background-color: green; width: 100px;">submit</a>
+		   	
+		    <div id="after_submit">
+		<p id="number_correct"></p>
+	</div><br><br>
+
+			
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click to display Date and Time.</button>
+<p id="demo"></p>
+
+	</form></center>
+
+</body>
+</html>
